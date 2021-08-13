@@ -7,4 +7,4 @@ class ExampleSpider(scrapy.Spider):
     start_urls = ['http://example.com/']
 
     def parse(self, response):
-        print("hello")
+        print(1+2)
